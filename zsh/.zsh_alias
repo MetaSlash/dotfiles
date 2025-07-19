@@ -1,0 +1,12 @@
+alias vi='nvim'
+
+alias l='eza --color=always'
+alias la='eza -A --color=always'
+alias ll='eza -hl --color=always'
+alias lla='eza -Ahl --color=always'
+
+alias cd='z'
+
+alias less='less -R'
+
+alias zen-browser="flatpak run app.zen_browser.zen"
