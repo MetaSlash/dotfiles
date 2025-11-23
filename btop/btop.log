@@ -82,3 +82,47 @@
 2025/07/11 (12:28:18) | ===> btop++ v.1.4.0
 2025/07/11 (12:28:18) | WARNING: Intel GPU: Failed to initialize PMU
 2025/07/11 (12:28:27) | WARNING: Failed to join _runner thread on exit!
+
+2025/09/18 (09:56:39) | ===> btop++ v.1.4.0
+2025/09/18 (09:56:39) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/09/25 (10:55:24) | ===> btop++ v.1.4.0
+2025/09/25 (10:55:24) | WARNING: Intel GPU: Failed to initialize PMU
+2025/09/25 (10:55:29) | ERROR: Stall in Runner thread, restarting!
+2025/09/25 (10:55:35) | ERROR: Stall in Runner thread, restarting!
+2025/09/25 (10:56:06) | ERROR: Stall in Runner thread, restarting!
+2025/09/25 (10:56:31) | ERROR: Stall in Runner thread, restarting!
+
+2025/09/26 (13:21:21) | ===> btop++ v.1.4.0
+2025/09/26 (13:21:21) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/09/26 (13:25:06) | ===> btop++ v.1.4.0
+2025/09/26 (13:25:06) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/09/29 (08:11:15) | ===> btop++ v.1.4.0
+2025/09/29 (08:11:15) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/09/29 (17:51:25) | ===> btop++ v.1.4.0
+2025/09/29 (17:51:25) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/09/29 (17:53:29) | ===> btop++ v.1.4.0
+2025/09/29 (17:53:29) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/09/29 (17:53:52) | ===> btop++ v.1.4.0
+2025/09/29 (17:53:52) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/10/01 (14:01:36) | ===> btop++ v.1.4.0
+2025/10/01 (14:01:36) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/10/18 (07:55:03) | ===> btop++ v.1.4.0
+2025/10/18 (07:55:03) | WARNING: Intel GPU: Failed to initialize PMU
+2025/10/18 (07:55:05) | WARNING: Failed to join _runner thread on exit!
+
+2025/11/18 (11:15:33) | ===> btop++ v.1.4.0
+2025/11/18 (11:15:33) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/11/18 (11:31:58) | ===> btop++ v.1.4.0
+2025/11/18 (11:31:58) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/11/18 (14:14:18) | ===> btop++ v.1.4.0
+2025/11/18 (14:14:18) | WARNING: Intel GPU: Failed to initialize PMU

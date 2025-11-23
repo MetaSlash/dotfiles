@@ -88,7 +88,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-	git
+    git
 )
 source $ZSH/oh-my-zsh.sh
 
@@ -127,11 +127,11 @@ source ~/.zsh_alias
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
-	tmux attach-session -t 0 || tmux new-session -s 0
+    tmux attach-session -t 0 || tmux new-session -s 0
 fi
 
 clear_and_fastfetch() { clear -x && fastfetch ; zle reset-prompt }
 zle -N clear_and_fastfetch
 bindkey '^L' clear_and_fastfetch
 
-
+export PATH="$HOME/.local/bin:$PATH"

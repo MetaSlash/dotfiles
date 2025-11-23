@@ -3,16 +3,34 @@ return {
 	opts = {
 		formatters_by_ft = {
 			lua = { "stylua" },
-			-- Conform will run multiple formatters sequentially
 			python = { "isort", "black" },
-			-- You can customize some of the format options for the filetype (:help conform.format)
 			rust = { "rustfmt" },
-			-- Conform will run the first available formatter
+
 			javascript = { "prettierd", "prettier", stop_after_first = true },
 			typescript = { "prettierd", "prettier", stop_after_first = true },
+
+			c = { "clang_format" }, -- Match the formatter name below
+			cpp = { "clang_format" }, -- Match the formatter name below
+
+			sh = { "beautysh" },
+			zsh = { "beautysh" },
 		},
+
+		formatters = {
+			clang_format = { -- Must match the name in formatters_by_ft
+				command = "clang-format",
+				args = {
+					"--style=file:/home/tabouret/.clang-format",
+					"--assume-filename=$FILENAME",
+				},
+			},
+			beautysh = { -- Must match the name in formatters_by_ft
+				command = "beautysh",
+				args = { "--indent-size", "4", "--tab", "$FILENAME" },
+			},
+		},
+
 		format_on_save = {
-			-- These options will be passed to conform.format()
 			timeout_ms = 500,
 			lsp_format = "fallback",
 		},

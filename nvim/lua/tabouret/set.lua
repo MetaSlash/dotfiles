@@ -11,7 +11,7 @@ vim.opt.smarttab = true -- Insert tabs on the start of a line according to shift
 
 -- Display settings for whitespace and tabs
 vim.opt.list = true
-vim.opt.listchars = "eol:.,tab:>-,trail:~,extends:>,precedes:<" -- Define how to display whitespace characters
+vim.opt.listchars = "eol:,tab:>-,trail:~,extends:>,precedes:<" -- Define how to display whitespace characters
 
 -- Line numbering and cursor settings
 vim.opt.number = true -- Show absolute line number on cursor line
