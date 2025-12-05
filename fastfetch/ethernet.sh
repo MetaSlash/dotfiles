@@ -10,8 +10,8 @@ ETH_INTERFACE="enp0s31f6"
 
 # Check if the Ethernet interface is up and has an IP address
 if ip link show "$ETH_INTERFACE" | grep -q "state UP" && [[ -n $(ip addr show "$ETH_INTERFACE" | grep 'inet ') ]]; then
-	echo -e "${GREEN}ON${RESET}"
+	echo -e "${GREEN}Ethernet Connected${RESET}"
 else
-	echo -e "${RED}OFF${RESET}"
+	echo -e "${RED}Ethernet Disconnected${RESET}"
 fi
 

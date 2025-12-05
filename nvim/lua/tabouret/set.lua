@@ -10,7 +10,7 @@ vim.opt.smartindent = true -- Do smart autoindenting when starting a new line
 vim.opt.smarttab = true -- Insert tabs on the start of a line according to shiftwidth
 
 -- Display settings for whitespace and tabs
-vim.opt.list = true
+vim.opt.list = false
 vim.opt.listchars = "eol:,tab:>-,trail:~,extends:>,precedes:<" -- Define how to display whitespace characters
 
 -- Line numbering and cursor settings

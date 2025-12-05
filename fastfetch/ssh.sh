@@ -14,8 +14,8 @@ sshd_status=$(systemctl is-active sshd)
 
 # Display results
 if [ "$sshd_status" == "active" ]; then
-	echo -e "${GEEN}ON${RESET} User(s) connected : $connected_users"
+	echo -e "${GEEN}SSH ON${RESET} User(s) connected : $connected_users"
 else
-    echo -e "${RED}OFF${RESET}."
+    echo -e "${RED}SSH OFF${RESET}"
 fi
 

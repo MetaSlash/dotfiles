@@ -17,3 +17,6 @@ alias zizicoptere="echo Dans le besoin le plus critique de retourner en france j
 alias zizi="echo Dans le besoin le plus critique de retourner en france j'ai du utiliser mon tout nouveau véhicule, j'ai nommé zizicoptere"
 
 alias zebi="echo OH LAISSE MOI DORMIR YA ZEBI !!"
+
+alias mecanic="kitty +kitten icat --align left ~/Pictures/Mecanic.PNG"
+alias mecanicgif="kitty +kitten icat --align left ~/Pictures/mecanic.gif"

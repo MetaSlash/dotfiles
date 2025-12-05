@@ -12,7 +12,7 @@
 		"color": {
 			"1": "#ee6c94", // Pink
 			"2": "#5188cf", // Blue
-			"3": "#6CEEC6", // Green
+			"3": "#6CEEC6", // cyan
 			"4": "#FF0000" // Orange
 		}
 	},
@@ -142,13 +142,13 @@
 			"text": "~/.config/fastfetch/wifi.sh"
 		},
 		{
-			"key": "  ├ ssh",
+			"key": "  ├ 󰢹 ",
 			"keyColor": "#6ceec6",
 			"type": "command",
 			"text": "~/.config/fastfetch/ssh.sh"
 		},
 		{
-			"key": "  └ ethernet",
+			"key": "  └ 󰈀 ",
 			"keyColor": "#6ceec6",
 			"type": "command",
 			"text": "~/.config/fastfetch/ethernet.sh"
